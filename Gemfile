@@ -35,7 +35,8 @@ group :test do
 end
 
 group :production do
-  gem 'pg', '1.2.3'
+  gem 'pg',   '1.2.3'
+  gem 'puma', '4.3.5'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
